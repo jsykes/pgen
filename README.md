@@ -30,7 +30,7 @@ This will generate a bin folder where the compiled output will be. All that need
 
 You can now use the tool with the command `pgen` and it will output the generated template of your choosing to the current directory.
 
-# Creating Your Own templates
+# Creating Your Own Templates
 
 This project uses handlebars for template generation. This was chosen over ejs because of the Angular style syntax.
 
