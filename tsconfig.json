@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "umd",
+    "sourceMap": true,
+    "outDir": "./bin",
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "bin",
+    "node_modules",
+    "templates"
+  ],
+  "include": [
+    "./src"
+  ]
+}

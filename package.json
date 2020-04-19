@@ -1,0 +1,33 @@
+{
+  "name": "pgen",
+  "version": "1.0.0",
+  "description": "Extendable code and project generator",
+  "main": "index.js",
+  "repository": "https://github.com/jsykes/pgen.git",
+  "author": "John Sykes",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "pgen": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/handlebars": "^4.1.0",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.11.1",
+    "@types/validate-npm-package-name": "^3.0.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.1.0",
+    "typescript": "^3.8.3",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "exclude": [
+    "node_modules",
+    "bin",
+    "templates"
+  ]
+}
